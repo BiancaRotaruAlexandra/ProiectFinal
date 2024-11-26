@@ -37,14 +37,14 @@ Rulează comanda: python main.py
 Accesează aplicația în browser la adresa: http://127.0.0.1:5000/.
 
 4.Structura proiectului
-main.py: Punctul de intrare al aplicației.
-templates/: Conține fișierele HTML pentru interfața utilizator(+CSS).
-home.py: Gestionarea paginii de start.
-book.py: Logica pentru rezervarea camerelor.
-reviews.py: Gestionarea recenziilor.
-admin.py: Funcționalități pentru administratori.
-reports.py: Exportul de rapoarte CSV.
-classes_and_functions.py: Clase și funcții auxiliare, inclusiv validări și trimiterea de e-mailuri.
+- main.py: Punctul de intrare al aplicației.
+- templates/: Conține fișierele HTML pentru interfața utilizator(+CSS).
+- home.py: Gestionarea paginii de start.
+- book.py: Logica pentru rezervarea camerelor.
+- reviews.py: Gestionarea recenziilor.
+- admin.py: Funcționalități pentru administratori.
+- reports.py: Exportul de rapoarte CSV.
+- classes_and_functions.py: Clase și funcții auxiliare, inclusiv validări și trimiterea de e-mailuri.
 
 5.API
 - Recenzii
