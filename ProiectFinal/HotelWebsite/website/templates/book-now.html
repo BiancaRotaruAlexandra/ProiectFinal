@@ -1,0 +1,62 @@
+{% extends "base.html" %} {% block title %}Book-now{% endblock %}
+
+{% block content %}
+<form method="POST">
+    <br/>
+    <h3 align="center">Booking</h3>
+
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type='text' class="form-control" id="firstName" name="firstName" placeholder="First name"/>
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type='text' class="form-control" id="lastName" name="lastName" placeholder="Last name"/>
+    </div>
+
+    <div class="form-group">
+        <label for="room-name">Room</label>
+        <input
+                type="text"
+                class="form-control"
+                id="room-name"
+                name="room-name"
+                placeholder="Enter a room name"
+        />
+    </div>
+
+    <div class="form-group">
+        <label for="date1">Arrival Date</label>
+        <input type='date' class="form-control" id="date1" name="date1" placeholder="Enter the arrival date"/>
+    </div>
+
+    <div class="form-group">
+        <label for="date2">Leave Date</label>
+        <input type='date' class="form-control" id="date2" name="date2" placeholder="Enter the leaving date"/>
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type='text' class="form-control" id="phone" name="phone" placeholder="Phone number"/>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter email"
+        />
+    </div>
+
+    <br/>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <br/>
+    <br/>
+    <br/>
+</form>
+{% endblock %}

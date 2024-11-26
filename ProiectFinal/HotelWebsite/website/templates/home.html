@@ -1,0 +1,101 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+{% block content %}
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%; /* Ensure header takes full width */
+    background: #FFA500; /* Gradient background */
+    color: white; /* Text color */
+    padding: 60px 20px; /* Padding for spacing */
+    text-align: center; /* Center the content */
+}
+
+.room-container {
+    background-color: #FFE9D5CC;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 155px; /* Add padding around the container */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.room-container h1
+{
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #262626;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -50px;
+    font-family: 'Playfair Display', serif;
+}
+.rooms {
+    margin: 50px;
+    text-align: center; /* Center text in cards */
+    background-color: white;
+}
+
+.rooms img {
+    width: 100%; /* Image takes full width of the viewport */
+    height: 320px; /* Automatic height for images */
+    max-width: 600px; /* Maximum width for images */
+}
+
+.rooms h2 {
+    font-size: 1.5em; /* Font size for the title */
+    color: #333; /* Title color */
+    margin: 10px 0; /* Margin around the title */
+}
+
+.rooms p {
+    font-size: 1em; /* Font size for the description */
+    color: #666; /* Description color */
+    padding: 0; /* Padding around the description */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+main
+{
+    background-color: #FFE0C5CC;
+}
+</style>
+
+    <div class="room-container">
+        <h1>Explore our hotel rooms</h1>
+        <section class="rooms">
+            <img src="https://www.peninsula.com/en/-/media/pbk/rooms/deluxe-room-twin-bed.jpg?mw=905&hash=9515693D3D8455DE1F48031E23A9C6BA" alt="Deluxe Room" sizes="">
+            <h2><strong>Deluxe Room</strong></h2>
+            <p><em>Our Deluxe Rooms offer a comfortable and elegant experience with a stunning view and modern amenities.</em></p>
+            <p> <strong>200 EUROS/NIGHT</strong></p>
+        </section>
+        <section class="rooms">
+            <img src="https://bookyourluxuryhotelsuite.com/wp-content/uploads/2018/12/Deluxe_Suite_Gulf_Hotel_Bahrain-1024x768.jpg" alt="Suite Room">
+            <h2><strong>Suite Room</strong></h2>
+            <p><em>Spacious and luxurious, our Suite Rooms are ideal for those seeking an extra level of comfort and privacy.</em></p>
+            <p> <strong>260 EUROS/NIGHT</strong></p>
+        </section>
+        <section class="rooms">
+            <img src="https://manorhousecountryhotel.s3-assets.com/executive-family-room-main.png" alt="Family Room">
+            <h2><strong>Family Room</strong></h2>
+            <p><em>Perfect for families, our Family Rooms are designed with extra space and amenities to make your stay relaxing.</em></p>
+            <p><strong>100 EUROS/NIGHT</strong></p>
+        </section>
+        <section class="rooms">
+            <img src="https://scdn.aro.ie/Sites/50/imperialhotels2022/uploads/images/FullLengthImages/Large/156753151_President_Hotel__Single_Room._4500x3000.jpg" alt="Single Room">
+            <h2><strong>Single Room</strong></h2>
+            <p><em>Compact and comfortable, our Single Rooms are perfect for solo travelers seeking convenience and style.</em></p>
+            <p><strong>60 EUROS/NIGHT</strong></p>
+        </section>
+    </div>
+{% endblock %}
