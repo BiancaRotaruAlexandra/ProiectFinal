@@ -16,10 +16,10 @@ Recenzii:
 - Adăugarea de recenzii: Funcționalitate pentru introducerea recenziilor direct în baza de date (manual, pentru testare).
 
 2.Tehnologii utilizate
--Backend: Flask (Python)
--Frontend: HTML, CSS (în template-uri Jinja2)
--Bază de date: SQLite
--API pentru e-mailuri: SendGrid
+- Backend: Flask (Python)
+- Frontend: HTML, CSS (în template-uri Jinja2)
+- Bază de date: SQLite
+- API pentru e-mailuri: SendGrid
 
 3.Configurare și utilizare
 Configurarea mediului:
